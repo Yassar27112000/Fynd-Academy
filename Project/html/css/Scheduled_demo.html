@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduled_Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+         *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        li,a,button{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 30px 10%;
+            position: sticky;
+
+        }
+        .logo{
+            cursor: pointer;  
+        }
+        .nav_links{
+            list-style: none;
+        }
+        .nav_links li{
+           display: inline-block;
+           padding: 0px 20px;
+        }
+        .nav_links li a{
+           transition: all 0.3s ease 0s;
+        }
+        .nav_links li a:hover{
+           color: aqua;
+        }
+        button{
+            margin-left: 20px;
+            padding: 9px 25px;
+            background-color:yellow;
+            border: none;
+            border-radius: 50px;
+            cursor:pointer;
+            transition: all 0.3s ease 0s;
+        }
+        .content{
+            display: flex;
+        }
+       #rea{
+        width: 50%;
+       }
+       #re2{
+        width: 50%;
+       }
+       h1{
+        width:70%;
+        margin-top: 70px;
+        font-size: 70px;
+        display: inline-block;
+        float: left;
+        margin-left: 70px;
+       }
+       section{
+        display: inline-block;
+
+       }
+       .img1{
+        margin-top: 10px;
+        height: 500px;
+        width: 90%;
+        border-radius: 20px;
+        margin-right: 30px;
+       }
+       p{
+        width:70%;
+        margin-top: 70px;
+        font-size: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 70px; 
+       }
+       .form{
+        margin-left: 100px;
+        margin-top: 30px;
+        cursor:pointer;
+        border-color: yellow;
+        border-radius: 10px;
+        transition: all 0.3s ease 0s;
+        padding: 9px 25px;
+       }
+       .img2{
+        width: 5%;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 10px;
+       }
+       .img3{
+        width: 5%;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 10px;
+       }
+       .img4{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+       }
+       .content2{
+         width: 100%;
+         background-color: azure;
+        }
+        .content3{
+         width: 100%;
+         height: 400px;
+         background-color: white;
+        }
+        .content4{
+         width: 100%;
+         height: 220px;
+         background-color: white;
+        }
+        .content5{
+            display: flex;
+        }
+        .c1{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="image/Screenshot 2023-03-12 230322.png" alt="" style="border-radius: 10px;height: 80px; width: 10%;">
+        <nav>
+               <ul class="nav_links">
+                  <li><a href="">Why Medipharm?</a></li>
+                  <li><a href="">Platform</a></li>
+                  <li><a href="">Solution</a></li>
+                  <li><a href="">Pricing</a></li>
+               </ul>
+        </nav>
+        <a  class="cts" href=""><button style="background-color: azure;border-radius: 10px;border: 2px solid yellow;">Log In</button></a>
+        <a  class="cta" href="form.html"><button>Sign Up for free</button></a>
+        <a  class="cta" href="form.html"><button>Scheduled_Demo</button></a>
+    </header>
+    <div>
+        <div class="content">
+            <div id="rea">
+                <h1>
+                    Arrive at each purchaser on The planet.
+                </h1>
+                <p>Search, draw in and convert more than 250 million contacts at north of 60 million organizations with Apollo's business knowledge and commitment stage.</p>
+                <form action="">
+                    <input class="form" type="email" id="email" name="fname" placeholder="abc@gmail.com"><button type="submit" style="margin-top: 20px;">Sign up for free</button>
+                  </form> 
+                  <h2><img class="img2" src="image/credit-card.png" alt=""style="margin-top: 100px;">No credit Card Required</h2> 
+                 
+
+                 </div>
+            <div id="rea2">
+                <form style="padding: 40px;">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First_Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last_Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                  </form>
+                <h2><img class="img2" src="image/check-mark.png" alt="" style="margin-top: 100px;">No credit Card Required</h2>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
